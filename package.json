@@ -25,6 +25,11 @@
     "sequelize": "^6.3.5"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc", 
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "dev": "npx nodemon --exec ts-node src/index.js",
+    "clean": "rm -i dist/*",
+    "start": "npm run clean && npm run build && node dist/index.js"
   }
 }
