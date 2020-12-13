@@ -1,0 +1,8 @@
+{
+  "name": "library-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/GibraAyala/library-backend.git",
+  "author": "Gibran Andre <gibran@anunciatedigital.com>",
+  "license": "MIT"
+}
